@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    background-color: #061646;
+    color:#f1f7f8 ;
+}
+
+
+.liverpool{
+    padding: 40px;
+    margin: 40px;
+    display:inline-flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color:#061646 ;
+}
+.liverpool img {
+    border-radius: 50%;
+    height: 400px;
+    width:400px;
+}
+.goal{
+    margin: 20px;
+    padding: 30px;
+    letter-spacing: 1.5px;
+    word-spacing: 1px;
+}
+.goal h1 {
+    font-size: 40px;    
+}
+.goal p{
+    padding: 7px;
+    margin: 3px;
+}
+.anfield{
+    padding:20px;
+    margin: 20px;
+    
+}
+.anfield h2{
+padding: 10px;
+}
+.anfield p{
+    padding: 10px;
+}
+
+
+
+/*RESPONSIVENESS */
+@media screen and (max-width:600px) {
+    .liverpool img {
+        border-radius: 50%;
+        height: 200px;
+        width:200px;
+    }
+    .goal{
+        margin: 0%;
+        padding: 0;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .goal h1 {
+        font-size: 20px; 
+        padding: 10px;   
+    }
+
+
+}
